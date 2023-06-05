@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="Imagenes/LogoHTML.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styleP.css">
+    <title>Productos</title>
+</head>
+<body>
+    <nav class="Barra">
+       
+            Tus Productos
+        
+    </nav>
+        <div class="Agrupar">
+            <div id="aplicacion">
+                
+                <div id="Contenedor" class="conteiner">
+                    <div>
+                        <h4>Ingrese un producto</h4>
+                    </div>
+                   
+                    <form id="productosForm">
+                        <div><input type="text" id="nombre" placeholder="Ingrese el nombre"></div>
+                        <div><input type="number" id="valor" step="0.01" placeholder="Ingrese valor"></div>  
+                        <div><input type="number" id="año_elaborado" placeholder="Ingrese año elaborado"></div>  
+                        <input type="submit" value="Guardar">
+                    </form>
+                </div>
+                <div id="Columna de productos">
+                    <div id="listaProductos" class="lista">
+
+                    </div>
+                </div>
+            
+            </div>
+            
+            
+        </div>
+        <script src="JavaScript/productos.js"></script>
+       
+</body>
+<footer>
+    <p>Derechos Reservados 2021-2022</p>
+</footer>
+</html>
